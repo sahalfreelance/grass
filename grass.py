@@ -100,7 +100,7 @@ async def connect_to_wss(user_id, uri):
             backoff_time = min(backoff_time * 2, 30)  # Exponential backoff with a cap
 
 async def main():
-    user_id = '7ecb29fb-fadd-42e6-bac8-7f5daebf3413'
+    user_id = input('Masukkan User ID : ')
     
     # Randomly select a WebSocket URI
     selected_uri = random.choice(ws_uris)
