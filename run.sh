@@ -7,5 +7,5 @@ pip3 install uuid
 pip3 install asncyio
 pip3 install loguru
 pip3 install fake_useragent
-cls
+clear
 python3 grass.py
